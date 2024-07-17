@@ -1,0 +1,30 @@
+[
+    {
+      "title": "Calculator",
+      "imageSrc": "src/assets/Projects/Calculatrice.png",
+      "description": "A calculator application built using WPF and C# for a smooth user experience.",
+      "detailedDescription": "It's a school project where I was asked to make a desktop application for Windows using WPF with C#. The application is a simple calculator that allows users to perform basic arithmetic operations. In this project, I learned how to use WPF components to create a user-friendly interface and handle user inputs effectively. I also gained experience in C# programming and understanding the event-driven programming model in WPF. This project helped me improve my problem-solving skills and learn how to manage small-scale projects efficiently.",
+      "skills": ["WPF", "C#"],
+      
+      "source": "https://github.com/2709725KHOUDALI/CalculatriceK.git"
+    },
+    {
+      "title": "Hospital Management System",
+      "imageSrc": "src/assets/Projects/gestionHopital.png",
+      "description": "A comprehensive hospital management system developed with WPF and C#. It features modules for managing doctors, specialties, and consultations. SQL Server is used for data storage.",
+      "detailedDescription": "It's a school project where I was asked to make a desktop application for Windows using WPF with C#. I picked SQL Server as a database of choice. The application allows users to manage doctors, specialties, and consultations within a hospital. Users can add new doctors, specialties, and consultations, as well as find information based on various criteria. All data entries are checked, and the user is notified with accurate messages describing any errors. In this project, I learned how to use complex WPF components such as 'DataGrid', integrate a database with my WPF project, and exchange data with it. I also improved my skills in managing complex user interfaces using the WPF grid layout. Additionally, I learned time management and how to deal with stress and deadlines. This was an opportunity to use SQL Server for the first time and see how it integrates with the Microsoft environment.",
+      "skills": ["WPF", "C#", "SQL Server"],
+      
+      "source": "https://github.com/2709725KHOUDALI/ProjetHopital.git"
+    },
+    {
+      "title": "Cannabis Inventory Management",
+      "imageSrc": "src/assets/Projects/DesktopCannabis.png",
+      "description": "An application for managing a cannabis business's inventory. Developed with WPF and C#, it allows importing data, tracking inventory, and generating QR codes. SQL Server is used for database management.",
+      "detailedDescription": "This project involved developing a desktop application for Windows using WPF and C#. The application manages the inventory for a cannabis business, enabling users to import data, track inventory, and generate QR codes. By leveraging SQL Server as the database, I ensured robust data validation, providing users with accurate error messages. The project's objective was to fulfill the specific needs of the Centre d’Accès à la Technologie en Bio-innovation (CAT-B) at La Cité college, which aimed to streamline plantule management processes. This application replaces manual methods, enhancing accuracy, traceability, and efficiency. Throughout this project, I utilized complex WPF components like 'DataGrid' and integrated Entity Framework Core for seamless database interactions. This experience not only improved my technical skills but also taught me valuable lessons in time management and meeting client deadlines.",
+      "skills": ["WPF", "C#", "SQL Server"],
+      "source": "https://github.com/2709725KHOUDALI/projetCannabis.git"
+    }
+    
+  ]
+  

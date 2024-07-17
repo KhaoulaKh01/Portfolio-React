@@ -1,14 +1,27 @@
 :root {
-    /* Colours */
-    --color-text: #C49D83;
-    --color-primary: #392E2C;
-    --color-secondary: #C49D83;
-    --color-dark: #9E8277;
-    --color-bg: #000;
-    --card:  rgba(57, 46, 44, 0.2);
-    --color-back : #fff;
-    --color-silver : ;
+  /* Colours */
+  --color-text: #000000; /* Noir */
+  --color-silver: #C0C0C0; /* Argenté 70% */
+  --color-silverFonce: #888888;
 
-    /* Fonts */
-    --font-robot: "Roboto";
+  --color-silver-transparent: rgba(192, 192, 192, 0); /* Transparent */
+  --color-primary: #C49D83; /* Couleur primaire pour dégradé */
+  --color-secondary: #392E2C; /* Couleur secondaire pour dégradé */
+  --color-white:#ffff;
+
+  /* Gradient */
+  --gradient: linear-gradient(to right, #6a3093 0%, #a044ff  51%, #6a3093  100%);
+  --gradient-silver: linear-gradient(100.26deg, #C0C0C0 70%, rgba(192, 192, 192, 0) 120%);
+    /* Dark Silver Gradient */
+  --gradient-dark-silver: linear-gradient(100.26deg, #A9A9A9 0%, #808080 100%);
+  --gradient-bg: #f5f5f7;
+
+  /* Fonts */
+  --font-robot: "Roboto";
+
+  --radius: 10px;
+  --glass: rgba(0, 0, 0, .5);
+  --blur: blur(20px);
+
+  --box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }

@@ -9,7 +9,7 @@ const Skills = () => {
             <div className={styles.wrapper}>
                 <h2 className={styles.title}>Skills</h2>
                 <p className={styles.desc}>
-                    Here are some of my skills on which I have been working on for the past 2 years.
+                    Here are some of my skills on which I have been working on for this year.
                 </p>
                 <div className={styles.skillsContainer}>
                     {skillData.map((skill) => (

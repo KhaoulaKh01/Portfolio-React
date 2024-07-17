@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
-import logoPK from "../../assets/nav/logoPK.png";
+import logoPK0 from "../../assets/nav/logoPK0.png";
 import closeIcon from "../../assets/nav/closeIcon.png";
 import menuIcon from "../../assets/nav/menuIcon.png"; 
 
@@ -10,10 +10,10 @@ export const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <img className={styles.logo} src={logoPK} alt="Logo" />
-      <a className={styles.title} href="/">
-        Portfolio
+     <a href="#hero"> 
+        <img className={styles.logo} src={logoPK0} alt="Logo" />
       </a>
+      
       <div className={styles.menu}>
         <img
           className={styles.menuBtn}
@@ -26,10 +26,16 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
             <a href="#skills">Skills</a>
           </li>
           <li>
             <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#testimonials">Testimonials</a>
           </li>
           <li>
             <a href="#contact">Contact</a>

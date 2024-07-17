@@ -5,10 +5,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 5px;
+  margin-top: 90px;
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 0%;
+  margin-right: 0%;
+  background: var(--gradient-bg);
+  padding: 20px; 
 }
 
 .content {
@@ -24,11 +26,7 @@
     font-weight: 500;
     margin-bottom: 5px;
     font-family: var(--font-roboto);
-    background: linear-gradient(
-      90deg,
-      rgba(196, 157, 131, 1) 70%, /* Utilise --color-text ici */
-      rgba(196, 157, 131, 0) 120% /* Couleur transparente */
-    );
+    background: var(--color-silverFonce) ;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
   }
@@ -41,11 +39,7 @@
     font-weight: 700;
     margin-bottom: 5px;
     font-family: var(--font-roboto);
-    background: linear-gradient(
-      90deg,
-      #C0C0C0 70%, /* Couleur argentée */
-      rgba(192, 192, 192, 0) 120% /* Couleur transparente */
-    );
+    background: var(--gradient);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
   }
@@ -57,22 +51,29 @@
   font-size: 20px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
-  color: white;
+  color: var(--color-text);
 }
 
 .contactBtn {
-  text-decoration: none;
-  background-color: var(--color-primary);
-  color: var(--color-text);
-  border-radius: 100px;
-  font-size: 30px;
+  background: var(--gradient);
+  border-radius: var(--radius);
+  text-transform: uppercase;
   font-weight: 600;
-  padding: 17px 26px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  color: var(----color-text);
+  padding: 10px;
+  min-width: 100px;
+  border: none;
+  background-size: 200% auto;
+  transition: 0.5s;
+  box-shadow: -2px -2px 2px rgba(0, 0, 0, 0.2) inset 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.contactBtn:hover {
+  color: #ffffff; 
 }
 
 .heroImg {
-  width: 50%;
+  width: 100%;
   z-index: 1;
 
   animation-name: floating;
@@ -103,8 +104,8 @@
     border-radius: 764px;
     background: linear-gradient(
       0deg,
-      rgba(57, 46, 44, 0.7) 0%, /* Couleur avec opacité */
-      rgba(57, 46, 44, 0) 100% /* Couleur transparente */
+      rgba(57, 46, 44, 0.7) 0%,
+      rgba(57, 46, 44, 0) 100% 
     );
     filter: blur(100px);
     z-index: 0;
@@ -121,12 +122,15 @@
     border-radius: 764px;
     background: linear-gradient(
       0deg,
-      rgba(196, 157, 131, 0.7) 0%, /* Couleur secondaire avec opacité */
-      rgba(196, 157, 131, 0) 100% /* Couleur transparente */
+      rgba(196, 157, 131, 0.7) 0%, 
+      rgba(196, 157, 131, 0) 100% 
     );
     filter: blur(100px);
     z-index: 0;
   }
+
+
+  
   
 
 @media screen and (max-width: 830px) {

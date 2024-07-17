@@ -6,7 +6,7 @@ import heroImage from "../../assets/Hero/heroImage.png";
 
 export const Hero = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container}id="about">
       <div className={styles.content}>
         <h1 className={styles.title1}>Hello, I'm Khaoula</h1>
         <h1 className={styles.title2}>Developer</h1>

@@ -1,13 +1,20 @@
 @import "../../variables.css";
 
 .navbar {
-  position: relative;
+  position: fixed;
+  left: 0px;
+  top: 20px;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 61px;
+  padding: 10px 20px;
   z-index: 2;
   margin: 0 10%;
+  border-radius: var(--radius);
+  backdrop-filter: var(--blur);
+  background: var(--glass);
+  
 }
 
 .title {
@@ -15,8 +22,10 @@
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
+  background: var(--gradient-silver); /* Application du dégradé argenté */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
 
 .menuBtn {
   display: none;
@@ -24,6 +33,8 @@
 
 .menu {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .menuItems {
@@ -34,8 +45,12 @@
 
 .menuItems a {
   font-size: 25px;
-  color: var(--color-text);
+  font-weight: 600;
   text-decoration: none;
+  color: var(--color-text);
+  background: var(--gradient-silver); /* Application du dégradé argenté */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 830px) {
@@ -63,17 +78,13 @@
     display: none;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 13px;
-    border-radius: 10px;
-    background: linear-gradient(
-      0deg,
-      rgba(57, 46, 44, 0.2) 0%,
-      rgba(57, 46, 44, 1) 100%
-    );
-    padding: 24px 33px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: var(--radius);
+    background: var(--glass);
+    backdrop-filter: var(--blur);
+    padding: 10px
   }
-
 
   .menuOpen {
     display: flex;

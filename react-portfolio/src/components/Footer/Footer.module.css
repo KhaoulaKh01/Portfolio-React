@@ -1,0 +1,51 @@
+/* src/components/Footer.module.css */
+.footerContainer {
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    background: var(--gradient-bg); /* Ajoutez cette ligne pour le dégradé */
+    padding: 20px; /* Ajoutez un peu de remplissage si nécessaire */
+  }
+  
+  .footerWrapper {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+    padding: 1rem;
+    color: var(--text-primary);
+  }
+  
+  .logo {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--primary);
+  }
+  
+  .socialMediaIcons {
+    display: flex;
+    margin-top: 1rem;
+  }
+  
+  .socialMediaIcon {
+    display: inline-block;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .socialMediaIcon:hover {
+    color: var(--primary);
+  }
+  
+  .copyright {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: var(--soft2);
+    text-align: center;
+  }
+  
