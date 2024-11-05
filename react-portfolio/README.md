@@ -26,3 +26,4 @@ This website was created to showcase my skills, projects, and client testimonial
 Here is screenshot of the home page of my portfolio:
 
 ![about Page](react-portfolio\CapturePortfolio.png)
+
