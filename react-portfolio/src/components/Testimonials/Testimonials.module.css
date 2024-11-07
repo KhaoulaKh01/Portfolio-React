@@ -7,12 +7,15 @@
 }
 
 .title {
-    font-size: 42px;
+    font-size: 35px;
     text-align: center;
     font-weight: 600;
     margin-top: 0px;
+    margin-bottom: 30px;
     padding-top: 100px;
     color: #888888;
+
+    
 }
 
 .testimonialContainer {

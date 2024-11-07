@@ -1,51 +1,51 @@
-/* src/components/Footer.module.css */
 .footerContainer {
-    width: 100%;
-    padding: 2rem 0;
-    display: flex;
-    justify-content: center;
-    background: var(--gradient-bg); /* Ajoutez cette ligne pour le dégradé */
-    padding: 20px; /* Ajoutez un peu de remplissage si nécessaire */
-  }
-  
-  .footerWrapper {
-    width: 100%;
-    max-width: 1200px;
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-    align-items: center;
-    padding: 1rem;
-    color: var(--text-primary);
-  }
-  
-  .logo {
-    font-weight: 600;
-    font-size: 20px;
-    color: var(--primary);
-  }
-  
-  .socialMediaIcons {
-    display: flex;
-    margin-top: 1rem;
-  }
-  
-  .socialMediaIcon {
-    display: inline-block;
-    margin: 0 1rem;
-    font-size: 1.5rem;
-    color: var(--text-primary);
-    transition: color 0.2s ease-in-out;
-  }
-  
-  .socialMediaIcon:hover {
-    color: var(--primary);
-  }
-  
-  .copyright {
-    margin-top: 1.5rem;
-    font-size: 0.9rem;
-    color: var(--soft2);
-    text-align: center;
-  }
-  
+  width: 100%;
+  padding: 0.5rem 0; /* Réduisez le padding supérieur et inférieur */
+  display: flex;
+  justify-content: center;
+  background: var(--gradient-bg); /* Vous pouvez garder le fond dégradé ici */
+  margin-top: -20px;
+}
+
+.footerWrapper {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrer tous les éléments */
+  padding: 1rem; /* Gardez un padding léger pour l'intérieur */
+  color: var(--text-primary);
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--primary);
+  text-align: center; /* Centrer le texte du logo */
+  margin-bottom: 0.5rem; /* Réduisez la marge inférieure */
+}
+
+.socialMediaIcons {
+  display: flex;
+  justify-content: center; /* Centrer les icônes */
+  margin: 0.5rem 0; /* Réduisez la marge supérieure et inférieure */
+}
+
+.socialMediaIcon {
+  display: inline-block;
+  margin: 0 0.5rem; /* Réduisez l'espace entre les icônes */
+  font-size: 1.5rem; /* Vous pouvez ajuster la taille si nécessaire */
+  color: var(--text-primary);
+  transition: color 0.2s ease-in-out;
+}
+
+.socialMediaIcon:hover {
+  color: var(--primary);
+}
+
+.copyright {
+  margin-top: 0.5rem; /* Réduisez la marge supérieure */
+  font-size: 0.9rem;
+  color: var(--soft2);
+  text-align: center;
+}

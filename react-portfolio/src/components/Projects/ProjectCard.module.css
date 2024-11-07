@@ -8,25 +8,26 @@
   box-shadow: 0 16px 14px 0 #392E2C;
   padding: 18px 24px;
   max-width: 320px;
+  height: 750px; 
 }
 
 .image {
-  width: 30%;
-  height: 50%;
+  width: 90%;
+  height: 60%;
   object-fit: cover; 
   margin-bottom: 26px;
   border-radius: 10px solid #ffff; 
 }
 
 .title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
-  color: #888888;
+  color: #8f8d8d;
 }
 
 .description {
   margin-top: 6px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   color: var(--color-silverFonce);
 }
